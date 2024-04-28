@@ -25,7 +25,7 @@ jobs:
         with:
           registry: ghcr.io
           username: classroom-sebasnaa
-          password: ${{ secrets.GITHUB_TOKEN }}
+          password: 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
       - name: Build container
         uses: docker/build-push-action@v5
         with:
